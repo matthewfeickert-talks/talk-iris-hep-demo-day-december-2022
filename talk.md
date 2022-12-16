@@ -155,7 +155,7 @@ execution took 611.55 seconds
 .huge[
 | Data   | BNL AF (sec)| | UChicago AF (sec)  |
 |--------|----:|-|----:|
-| 157 GB |  93 | |   X |
+| 157 GB |  93 | |  65 |
 | 678 GB | 375 | | 182 |
 | 1 TB   | 611 | | 243 |
 ]
