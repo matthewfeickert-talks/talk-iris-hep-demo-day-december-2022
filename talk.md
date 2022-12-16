@@ -106,9 +106,9 @@ Singularity>
 - BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
 ```python
 ...
-PIPELINE = "coffea"
-USE_DASK = True
-AF = "local"
+PIPELINE = "coffea"  # pure coffea setup
+USE_DASK = True  # enable Dask
+AF = "local"  # local setup, not coffea-casa
 AF_NAME = "bnl"  # Added on Matthew's fork
 ...
 ```
