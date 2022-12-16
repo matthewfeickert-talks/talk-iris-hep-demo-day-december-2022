@@ -98,7 +98,7 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
-# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/b7dbb33e6e0acc971edfbfc3e30c25c58f5418b8/analyses/cms-open-data-ttbar/coffea.ipynb)
 
 .huge[
 - Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
@@ -115,7 +115,7 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 ]
 
 ---
-# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/b7dbb33e6e0acc971edfbfc3e30c25c58f5418b8/analyses/cms-open-data-ttbar/coffea.ipynb)
 
 .huge[
 - Execute the data delivery pipeline step
@@ -143,7 +143,7 @@ execution took 611.55 seconds
 ```
 
 ---
-# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+# Example: [AGC CMS Open Data $t\bar{t}$ Analysis](https://github.com/iris-hep/analysis-grand-challenge/blob/b7dbb33e6e0acc971edfbfc3e30c25c58f5418b8/analyses/cms-open-data-ttbar/coffea.ipynb)
 
 .huge[
 - Execute the data delivery pipeline step
