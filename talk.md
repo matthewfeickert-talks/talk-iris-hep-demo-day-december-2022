@@ -132,23 +132,6 @@ AF_NAME = "bnl"  # Added on Matthew's fork
 # Example: AGC CMS Open Data $t\bar{t}$ Analysis
 
 .huge[
-- Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
-- Notebook runs end-to-end (good first start 🚀)
-- BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
-```python
-...
-PIPELINE = "coffea"
-USE_DASK = True
-AF = "local"
-AF_NAME = "bnl"  # Added on Matthew's fork
-...
-```
-]
-
----
-# Example: AGC CMS Open Data $t\bar{t}$ Analysis
-
-.huge[
 - Execute the data delivery pipeline step
 ]
 
@@ -196,18 +179,10 @@ execution took 611.55 seconds
 
 ---
 # Summary
-.kol-2-3.huge[
-- Build community practices on top of .bold[established standards]
-   <!-- - There are professional communities at work building tools, so we should join them, not rebuild a wheel -->
-- If citation of your software is important to you, .bold[make it easy] for a user to find your citation information
-- Modern standards like `CITATION.cff` allow for .bold[single source of citation information] that can be exported as needed
-- Long term archives + [FAIR practices](https://indico.cern.ch/event/1211229/contributions/5120857/)
-   - Zenodo provides automatically release information each release
-]
-.kol-1-3[
-.center.width-80[[![CFF-logo](figures/CFF-logo.png)](https://citation-file-format.github.io/)]
 
-.center.width-100[[![zenodo-logo](figures/zenodo-logo.svg)](https://zenodo.org/)]
+.huge[
+- Have a runnable environment for AGC at BNL AF (🚀)
+-
 ]
 
 ---
