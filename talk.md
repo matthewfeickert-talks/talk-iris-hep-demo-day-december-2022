@@ -112,6 +112,88 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
+# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+
+.huge[
+- Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
+- Notebook runs end-to-end (good first start 🚀)
+- BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
+```python
+...
+PIPELINE = "coffea"
+USE_DASK = True
+AF = "local"
+AF_NAME = "bnl"  # Added on Matthew's fork
+...
+```
+]
+
+---
+# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+
+.huge[
+- Doug has moved data to `/usatlas/atlas01/atlasdisk/users/benjamin/AGC/`
+- Notebook runs end-to-end (good first start 🚀)
+- BNL does not use Kubernetes, so not a Coffea-casa AF, so use global config
+```python
+...
+PIPELINE = "coffea"
+USE_DASK = True
+AF = "local"
+AF_NAME = "bnl"  # Added on Matthew's fork
+...
+```
+]
+
+---
+# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+
+.huge[
+- Execute the data delivery pipeline step
+]
+
+```python
+N_FILES_MAX_PER_SAMPLE = 10  # 157 GB
+...
+[########################################] | 100% Completed |  1min 32.6s
+execution took 93.11 seconds
+```
+
+```python
+N_FILES_MAX_PER_SAMPLE = 50  # 678 GB
+...
+[########################################] | 100% Completed |  6min 14.1s
+execution took 375.80 seconds
+```
+
+```python
+N_FILES_MAX_PER_SAMPLE = 100  # 1 TB
+...
+[########################################] | 100% Completed | 10min 10.0s
+execution took 611.55 seconds
+```
+
+---
+# Example: AGC CMS Open Data $t\bar{t}$ Analysis
+
+.huge[
+- Execute the data delivery pipeline step
+- Nothing that I've done at BNL has been optimized yet (just doing defaults)
+- .bold[N.B.] Need to get better information on how scaling is done (so comparisons are not valid here yet)
+]
+
+.huge[
+| Data   | BNL AF (sec)| | UChicago AF (sec)  |
+|--------|----:|-|----:|
+| 157 GB |  93 | |   X |
+| 678 GB | 375 | | 182 |
+| 1 TB   | 611 | | 243 |
+]
+
+.center.bold[Comparison of unoptimized numbers (don't try to 1:1 these)]
+
+
+---
 # Summary
 .kol-2-3.huge[
 - Build community practices on top of .bold[established standards]
