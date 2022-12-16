@@ -159,6 +159,7 @@ execution took 611.55 seconds
 | 678 GB | 375 | | 182 |
 | 1 TB   | 611 | | 243 |
 ]
+.center.bold[(The input files are all in the 1–2 GB range)]
 
 .center.bold[Comparison of unoptimized numbers (don't try to 1:1 these)]
 
