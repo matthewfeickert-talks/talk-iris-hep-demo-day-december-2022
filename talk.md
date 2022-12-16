@@ -104,6 +104,14 @@ Singularity>
 .center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
 
 ---
+# WIP: Custom kernel discovery
+
+.center.width-75[[![jupyter-lab-kernel](figures/jupyter-lab-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center.huge.bold[Hack for time being: Create custom symlink first time]
+.center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
+
+---
 # Summary
 .kol-2-3.huge[
 - Build community practices on top of .bold[established standards]
