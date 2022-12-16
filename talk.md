@@ -182,7 +182,10 @@ execution took 611.55 seconds
 
 .huge[
 - Have a runnable environment for AGC at BNL AF (🚀)
--
+- BNL team is working to make drop-in with custom images well specified and easy
+- Things work, but to understand how scaling is working will need to improve the monitoring story
+   - Currently don't have Dask dashboards detecting the Dask cluster
+- Also need to try other AGC analyses and expand / modify environment
 ]
 
 ---
