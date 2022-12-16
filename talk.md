@@ -8,7 +8,7 @@ count: false
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[IRIS-HEP / AGC Demo Day December 2022](https://indico.cern.ch/event/1211229/contributions/5120858/)
+[IRIS-HEP / AGC Demo Day December 2022](https://indico.cern.ch/event/1218004/#4-integrating-agc-pipeline-at)
 <br>
 November 23rd, 2022
 
