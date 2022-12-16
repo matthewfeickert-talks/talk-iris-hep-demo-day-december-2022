@@ -17,7 +17,7 @@ November 23rd, 2022
 ---
 # Introduction and Overview
 
-.kol-1-1.large[
+.huge[
 - This work is really all thanks to BNL team
       - Doug Benjamin
       - Ofer Rind
