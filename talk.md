@@ -31,6 +31,12 @@ November 23rd, 2022
 ] -->
 
 ---
+# BNL SDCC Jupyter Launcher --- custom images!
+
+.center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+
+---
 # Summary
 .kol-2-3.huge[
 - Build community practices on top of .bold[established standards]
