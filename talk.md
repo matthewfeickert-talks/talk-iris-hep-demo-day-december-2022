@@ -72,6 +72,38 @@ November 23rd, 2022
 ]
 
 ---
+# BNL SDCC Jupyter Launcher: custom images!
+
+.center.width-100[[![BNL-launcher-with-image-tag](figures/BNL-launcher-with-image-tag.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.center.huge.bold[Today's demo:]
+.huge.bold[`/cvmfs/unpacked.cern.ch/hub.opensciencegrid.org/iris-hep/analysis-systems-base:2022-12-15`]
+
+---
+# WIP: Custom kernel discovery
+
+.center.width-75[[![jupyter-lab-no-kernel](figures/jupyter-lab-no-kernel.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
+
+.large[At the moment, lacking mounting (or something else) to mount custom kernels from user defined virtual environments]
+
+---
+# WIP: Custom kernel discovery
+
+.bold[
+```
+Singularity> mkdir -p ~/.local/share/jupyter/kernels
+Singularity> ln --symbolic \
+   /opt/micromamba/envs/analysis-systems/share/jupyter/kernels/analysis-systems \
+   ~/.local/share/jupyter/kernels
+Singularity>
+```
+]
+
+<br>
+.center.huge.bold[Hack for time being: Create custom symlink first time]
+.center.huge.bold[(c.f. https://github.com/iris-hep/analysis-systems-base/issues/12)]
+
+---
 # Summary
 .kol-2-3.huge[
 - Build community practices on top of .bold[established standards]
