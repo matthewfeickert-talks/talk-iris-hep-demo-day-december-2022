@@ -179,7 +179,8 @@ execution took 611.55 seconds
 .huge[
 - Execute the data delivery pipeline step
 - Nothing that I've done at BNL has been optimized yet (just doing defaults)
-- .bold[N.B.] Need to get better information on how scaling is done (so comparisons are not valid here yet)
+- .bold[N.B.] Need to get better information on how scaling is done at BNL (so comparisons are not valid here yet)
+   - UChicago AF is running with `AF = "coffea_casa"` and so scaling across k8
 ]
 
 .huge[
