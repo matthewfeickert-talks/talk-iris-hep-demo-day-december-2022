@@ -22,23 +22,9 @@ November 23rd, 2022
       - Doug Benjamin
       - Ofer Rind
       - Chris Hollowell
-- Ongoing process, but today just showing the first (unoptimized) first steps that came together pleasantly quickly
+- Ongoing process, but today just showing the first (unoptimized) steps that came together pleasantly quickly
 - Today showing examples of running at BNL's SDCC Jupyter instance
 ]
-
-
-<!-- .kol-1-2.large[
-- In Tuesday's session, Daniel Katz already gave very nice high level overview of software citation .bold[principles] and .bold[tools]
-- This is an .red[opinionated] summary of the tooling landscape and examples of workflows
-   - Full disclosure: Opinions formed from pyhf development and from Scikit-HEP community discussions (c.f. [Eduardo's talk](https://indico.cern.ch/event/1211229/contributions/5150204/)).
-- Meant to be recommendations to software developers on making your work as .bold[easy to cite as possible]
-   - These recommendations can transfer to experiment software as well
-]
-.kol-1-2[
-<br><br>
-.center.width-100[[![dan-katz-intro](figures/dan-katz-intro.png)](https://indico.cern.ch/event/1211229/contributions/5120849/)]
-.center[[Daniel Katz's talk](https://indico.cern.ch/event/1211229/contributions/5120849/)]
-] -->
 
 ---
 # BNL SDCC Jupyter Launcher: custom images!
