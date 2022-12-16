@@ -10,7 +10,7 @@ count: false
 
 [IRIS-HEP / AGC Demo Day December 2022](https://indico.cern.ch/event/1218004/#4-integrating-agc-pipeline-at)
 <br>
-November 23rd, 2022
+December 16th, 2022
 
 .middle-logo[]
 
