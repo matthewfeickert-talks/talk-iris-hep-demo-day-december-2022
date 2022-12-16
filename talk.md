@@ -40,6 +40,7 @@ November 23rd, 2022
 .kol-1-2.huge[
 - As we can use custom images at BNL created the `analysis-systems-base` image (https://github.com/iris-hep/analysis-systems-base)
 - Images are hosted on [OSG Harbor](https://hub.opensciencegrid.org/harbor/projects/863/repositories/analysis-systems-base) under `iris-hep` org
+   - `hub.opensciencegrid.org/iris-hep/analysis-systems-base`
    - Thanks Brian Lin for making this happen!
 ]
 .kol-1-2[
