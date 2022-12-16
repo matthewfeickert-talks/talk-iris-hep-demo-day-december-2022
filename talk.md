@@ -17,6 +17,16 @@ November 23rd, 2022
 ---
 # Introduction and Overview
 
+.kol-1-1.large[
+- This work is really all thanks to BNL team
+      - Doug Benjamin
+      - Ofer Rind
+      - Chris Hollowell
+- Ongoing process, but today just showing the first (unoptimized) first steps that came together pleasantly quickly
+- Today showing examples of running at BNL's SDCC Jupyter instance
+]
+
+
 <!-- .kol-1-2.large[
 - In Tuesday's session, Daniel Katz already gave very nice high level overview of software citation .bold[principles] and .bold[tools]
 - This is an .red[opinionated] summary of the tooling landscape and examples of workflows
@@ -31,10 +41,35 @@ November 23rd, 2022
 ] -->
 
 ---
-# BNL SDCC Jupyter Launcher --- custom images!
+# BNL SDCC Jupyter Launcher: custom images!
 
 .center.width-100[[![BNL-launcher-page](figures/BNL-launcher-page.png)](https://atlas-jupyter-test.sdcc.bnl.gov/)]
 
+.center[Allows for running custom images as Singularity containers]
+.center[Can pull from public image registries or from CVMFS unpacked]
+
+---
+# Development image: analysis-systems-base
+
+.kol-1-2.huge[
+- As we can use custom images at BNL created the `analysis-systems-base` image (https://github.com/iris-hep/analysis-systems-base)
+- Images are hosted on [OSG Harbor](https://hub.opensciencegrid.org/harbor/projects/863/repositories/analysis-systems-base) under `iris-hep` org
+   - Thanks Brian Lin for making this happen!
+]
+.kol-1-2[
+.center.width-100[[![analysis-systems-base-github](figures/analysis-systems-base-github.png)](https://github.com/iris-hep/analysis-systems-base)]
+]
+
+---
+# Development image: analysis-systems-base
+
+.kol-1-2.huge[
+- As we can use custom images at BNL created the `analysis-systems-base` image (https://github.com/iris-hep/analysis-systems-base)
+- Goal is to use lock files to make as much of the image as fully reproducible as possible and statically defined.
+]
+.kol-1-2[
+.center.width-70[[![lock-files](figures/lock-files.png)](https://github.com/iris-hep/analysis-systems-base)]
+]
 
 ---
 # Summary
